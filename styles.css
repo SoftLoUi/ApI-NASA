@@ -1,0 +1,56 @@
+body {
+    font-family: 'Josefin Sans', sans-serif; /* Establece la fuente principal para todo el cuerpo del documento, con una fuente de respaldo 'sans-serif' */
+    margin: 0; /* Elimina el margen exterior del cuerpo */
+    padding: 0; /* Elimina el relleno interno del cuerpo */
+    background-color: #626060; /* Establece el color de fondo del cuerpo */
+    color: #ffffff; /* Establece el color de texto para todo el cuerpo */
+    text-align: center; /* Centra el texto dentro del cuerpo */
+    line-height: 1.6; /* Mejora la legibilidad del texto aumentando el espacio entre líneas */
+}
+
+header {
+    background-color: #b4b4b4; /* Establece el color de fondo para el encabezado */
+    padding: .8em 0; /* Añade relleno vertical de 0.8em y ningún relleno horizontal al encabezado */
+}
+
+h1 {
+    margin: 0; /* Elimina el margen superior e inferior del título principal */
+    font-size: 4.5em; /* Aumenta el tamaño del título principal a 4.5 veces el tamaño de la fuente base */
+}
+
+main {
+    padding: 2em; /* Añade relleno interno de 2em al contenido principal */
+    display: flex; /* Utiliza flexbox para el contenedor principal */
+    justify-content: center; /* Centra los elementos hijos horizontalmente dentro del contenedor principal */
+    align-items: center; /* Centra los elementos hijos verticalmente dentro del contenedor principal */
+    flex-direction: column; /* Organiza los elementos hijos en columna dentro del contenedor principal */
+}
+
+#apod-container {
+    margin: 2em auto; /* Añade un margen de 2em arriba y abajo, y automáticamente calcula el margen lateral para centrar el contenedor */
+    max-width: 80%; /* Establece el ancho máximo del contenedor al 80% del ancho disponible */
+    background-color: rgba(255, 255, 255, 0.1); /* Establece un fondo semi-transparente para el contenedor */
+    padding: 3.9em; /* Añade un relleno interno de 3.9em al contenedor */
+    border-radius: 8px; /* Añade bordes redondeados de 8px al contenedor */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Añade una sombra ligera alrededor del contenedor */
+}
+
+h2 {
+    color: rgb(255, 240, 240); /* Establece el color de texto para los subtítulos */
+    margin: 0; /* Elimina el margen superior e inferior del subtítulo */
+    font-size: 2.5em; /* Aumenta el tamaño del subtítulo a 2.5 veces el tamaño de la fuente base */
+}
+
+img {
+    max-width: 80%; /* Establece el ancho máximo de las imágenes al 80% del ancho disponible */
+    height: auto; /* Ajusta automáticamente la altura de las imágenes para mantener la proporción */
+    border: 5px solid #989898; /* Establece un borde sólido de 5px alrededor de las imágenes */
+    border-radius: 12px; /* Añade bordes redondeados de 12px a las imágenes */
+}
+
+p {
+    margin-top: 1em; /* Añade un margen superior de 1em a los párrafos */
+    font-size: 1.4em; /* Establece el tamaño de fuente de los párrafos */
+    line-height: 1.6; /* Aumenta el espacio entre líneas de los párrafos para mejorar la legibilidad */
+}
+
